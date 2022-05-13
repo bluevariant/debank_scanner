@@ -53,7 +53,7 @@ scan.getPortfolioMethodsByAddressQueue = new Queue(
   {
     concurrent: 10,
     maxRetries: 10,
-    retryDelay: 2000,
+    retryDelay: 5000,
   }
 );
 
