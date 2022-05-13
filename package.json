@@ -1,0 +1,14 @@
+{
+  "name": "debank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "better-queue": "^3.8.10",
+    "lodash": "^4.17.21"
+  },
+  "bin": {
+    "debank": "scan.js"
+  }
+}
